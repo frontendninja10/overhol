@@ -23,6 +23,7 @@ export default function ContactUs({
         borderRadius={"30px"}
         padding={"60px"}
         color={"#fff"}
+        boxShadow={"2xl"}
       >
         <Heading
           as={"h2"}
@@ -53,6 +54,7 @@ export default function ContactUs({
         padding={"60px"}
         color={"#000F08"}
         boxShadow={"lg"}
+        borderWidth={"1px"}
       >
         <Heading
           as={"h2"}

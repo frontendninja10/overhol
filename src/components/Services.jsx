@@ -67,7 +67,6 @@ export default function Services() {
             h={{ base: "unset", md: "250px" }}
             borderRadius={"30px"}
             p={{ base: "40px", md: "" }}
-            // pl={{ base: "20px", md: "60px" }}
             pt={{ base: "30px", md: "45px" }}
             pb={{ base: "30px", md: "unset" }}
           >
@@ -90,7 +89,7 @@ export default function Services() {
             </UnorderedList>
           </Box>
         </GridItem>
-        <GridItem colSpan={2} mt={{ base: "", md: "-40px" }}>
+        <GridItem colSpan={2} mt={{ base: "", md: "-100px" }}>
           <Box
             border={"1px solid rgba(52, 35, 166, 0.40)"}
             borderRadius={"30px"}

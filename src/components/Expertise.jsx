@@ -410,21 +410,160 @@ export default function Expertise() {
             fontFamily={"Metropolis-SemiBold"}
             ml={{ base: "unset", md: "3em" }}
           >
-            <UnorderedList
-              spacing={1}
-              marginBottom={{ base: "1em", md: "20px" }}
-              listStyleType={"none"}
-            >
-              <ListItem>Recruiting</ListItem>
-            </UnorderedList>
-            <UnorderedList spacing={1} listStyleType={"none"} mb={"30px"}>
-              <ListItem>Benefits Administration</ListItem>
-            </UnorderedList>
+            <AccordionItem border={"none"} mb={"15px"}>
+              {({ isExpanded }) => (
+                <>
+                  <h2>
+                    <AccordionButton>
+                      <Box
+                        as="span"
+                        flex="1"
+                        display={"flex"}
+                        alignItems={"center"}
+                        textAlign="left"
+                        fontFamily={
+                          isExpanded
+                            ? "AvenirNextLTPro-Bold"
+                            : "Metropolis-SemiBold"
+                        }
+                        color={isExpanded ? "#000F08" : "rgba(0, 15, 8, 0.60)"}
+                      >
+                        {isExpanded ? (
+                          <Box
+                            display={"inline-block"}
+                            mr={"2"}
+                            bg={"#000F08"}
+                            w={"4px"}
+                            h={"35px"}
+                            borderRadius={"3px"}
+                          ></Box>
+                        ) : (
+                          ""
+                        )}
+                        Recruiting
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <UnorderedList
+                      color={"#000F08"}
+                      listStyleType={"none"}
+                      spacing={1}
+                      fontFamily={"AvenirNextLTPro-Regular"}
+                    >
+                      <ListItem>Onboarding and Off-boarding</ListItem>
+                      <ListItem>Performance Management</ListItem>
+                      <ListItem>Learning and Development</ListItem>
+                      <ListItem>Succession Planning</ListItem>
+                    </UnorderedList>
+                  </AccordionPanel>
+                </>
+              )}
+            </AccordionItem>
+            <AccordionItem border={"none"} mb={"15px"}>
+              {({ isExpanded }) => (
+                <>
+                  <h2>
+                    <AccordionButton>
+                      <Box
+                        as="span"
+                        flex="1"
+                        display={"flex"}
+                        alignItems={"center"}
+                        textAlign="left"
+                        fontFamily={
+                          isExpanded
+                            ? "AvenirNextLTPro-Bold"
+                            : "Metropolis-SemiBold"
+                        }
+                        color={isExpanded ? "#000F08" : "rgba(0, 15, 8, 0.60)"}
+                      >
+                        {isExpanded ? (
+                          <Box
+                            display={"inline-block"}
+                            mr={"2"}
+                            bg={"#000F08"}
+                            w={"4px"}
+                            h={"35px"}
+                            borderRadius={"3px"}
+                          ></Box>
+                        ) : (
+                          ""
+                        )}
+                        Benefits Administration
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <UnorderedList
+                      color={"#000F08"}
+                      listStyleType={"none"}
+                      spacing={1}
+                      fontFamily={"AvenirNextLTPro-Regular"}
+                    >
+                      <ListItem>Benefits Configuration</ListItem>
+                      <ListItem>Benefits Tracking</ListItem>
+                      <ListItem>Benefits Enrolment</ListItem>
+                    </UnorderedList>
+                  </AccordionPanel>
+                </>
+              )}
+            </AccordionItem>
+            <AccordionItem border={"none"} mb={"15px"}>
+              {({ isExpanded }) => (
+                <>
+                  <h2>
+                    <AccordionButton>
+                      <Box
+                        as="span"
+                        flex="1"
+                        display={"flex"}
+                        alignItems={"center"}
+                        textAlign="left"
+                        fontFamily={
+                          isExpanded
+                            ? "AvenirNextLTPro-Bold"
+                            : "Metropolis-SemiBold"
+                        }
+                        color={isExpanded ? "#000F08" : "rgba(0, 15, 8, 0.60)"}
+                      >
+                        {isExpanded ? (
+                          <Box
+                            display={"inline-block"}
+                            mr={"2"}
+                            bg={"#000F08"}
+                            w={"4px"}
+                            h={"35px"}
+                            borderRadius={"3px"}
+                          ></Box>
+                        ) : (
+                          ""
+                        )}
+                        Automation RPA
+                      </Box>
+                      <AccordionIcon />
+                    </AccordionButton>
+                  </h2>
+                  <AccordionPanel pb={4}>
+                    <UnorderedList
+                      color={"#000F08"}
+                      listStyleType={"none"}
+                      spacing={1}
+                      fontFamily={"AvenirNextLTPro-Regular"}
+                    >
+                      <ListItem>
+                        Automation business Process and Workflow
+                      </ListItem>
+                      <ListItem>Automation system integration</ListItem>
+                    </UnorderedList>
+                  </AccordionPanel>
+                </>
+              )}
+            </AccordionItem>
             <UnorderedList spacing={1} listStyleType={"none"} mb={"30px"}>
               <ListItem>Talent Management</ListItem>
-            </UnorderedList>
-            <UnorderedList spacing={1} listStyleType={"none"} mb={"30px"}>
-              <ListItem>Automation (RPA)</ListItem>
             </UnorderedList>
           </Accordion>
         </Flex>
