@@ -1,5 +1,13 @@
 import React from "react";
-import { Flex, Heading, Text, Grid, GridItem, Image } from "@chakra-ui/react";
+import {
+  Flex,
+  Heading,
+  Text,
+  Grid,
+  GridItem,
+  Image,
+  Box,
+} from "@chakra-ui/react";
 import ceridian from "../assets/ceridian-logo.svg";
 import dhl from "../assets/dhl.svg";
 import cn from "../assets/CN.svg";
@@ -23,27 +31,30 @@ export default function AboutUs() {
       flexDir={"column"}
       id="about"
     >
-      <Heading
-        as={"h2"}
-        fontFamily={"Metropolis-SemiBold"}
-        fontSize={"30px"}
-        pb={"40px"}
-        color={"#31249F"}
-        // pt={"400px"}
-      >
-        About us?
-      </Heading>
       <Flex
         gap={{ base: "100px", md: "150px" }}
         flexDir={{ base: "column", md: "row" }}
         alignItems={{ base: "unset", md: "center" }}
       >
-        <Text>
-          We are a team of professionals with almost 2 decades of combined
-          experience providing advisory services, implementing business
-          solutions, and digitally overhauling existing technologies, reshaping
-          businesses and helping them and their people get to the next level.
-        </Text>
+        <Box>
+          <Heading
+            as={"h2"}
+            fontFamily={"Metropolis-SemiBold"}
+            fontSize={"30px"}
+            pb={"40px"}
+            color={"#31249F"}
+            // pt={"400px"}
+          >
+            About us?
+          </Heading>
+          <Text>
+            We are a team of professionals with almost 2 decades of combined
+            experience providing advisory services, implementing business
+            solutions, and digitally overhauling existing technologies,
+            reshaping businesses and helping them and their people get to the
+            next level.
+          </Text>
+        </Box>
         <Image src={aboutUsImg} />
       </Flex>
       <Text mt={"100px"} mb={"60px"} w={{ base: "100%", md: "70%" }}>

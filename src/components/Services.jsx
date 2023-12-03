@@ -35,7 +35,7 @@ export default function Services() {
       <Grid
         h={"100vh"}
         gridColumnGap={{ base: "unset", md: "2em" }}
-        gridRowGap={{ base: "2em", md: "1em" }}
+        gridRowGap={{ base: "2em", md: "1em", lg: "1em" }}
         gridTemplateColumns={"repeat(2, 1fr)"}
       >
         <GridItem colSpan={{ base: "2", md: "1" }}>
@@ -94,11 +94,13 @@ export default function Services() {
             </UnorderedList>
           </Box>
         </GridItem>
-        <GridItem colSpan={2} mt={{ base: "", md: "-100px" }}>
+        <GridItem
+          colSpan={2}
+          mt={{ base: "unset", md: "-100px", lg: "-100px" }}
+        >
           <Box
             border={"1px solid rgba(52, 35, 166, 0.40)"}
             borderRadius={"30px"}
-            // pl={{ base: "20px", md: "60px" }}
             p={{ base: "40px", md: "" }}
             pt={{ base: "30px", md: "45px" }}
           >
