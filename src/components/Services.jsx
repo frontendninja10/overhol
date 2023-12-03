@@ -32,7 +32,12 @@ export default function Services() {
       >
         Our Services
       </Heading>
-      <Grid h={"100vh"} gap={"50px"} gridTemplateColumns={"repeat(2, 1fr)"}>
+      <Grid
+        h={"100vh"}
+        gap={"2em"}
+        gridRowGap={{ base: "unset", md: "1em" }}
+        gridTemplateColumns={"repeat(2, 1fr)"}
+      >
         <GridItem colSpan={{ base: "2", md: "1" }}>
           <Box
             border={"1px solid rgba(52, 35, 166, 0.40)"}

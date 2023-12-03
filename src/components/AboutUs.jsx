@@ -36,6 +36,7 @@ export default function AboutUs() {
       <Flex
         gap={{ base: "100px", md: "150px" }}
         flexDir={{ base: "column", md: "row" }}
+        alignItems={{ base: "unset", md: "center" }}
       >
         <Text>
           We are a team of professionals with almost 2 decades of combined
