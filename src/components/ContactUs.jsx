@@ -19,7 +19,7 @@ export default function ContactUs({
       <Box
         bgColor={"#000F08"}
         width={{ base: "100%", md: "560px" }}
-        height={"570px"}
+        height={{ base: "500px", md: "570px" }}
         borderRadius={"30px"}
         padding={"60px"}
         color={"#fff"}
@@ -48,7 +48,7 @@ export default function ContactUs({
       <Box
         bgColor={"#F5F8FB"}
         width={{ base: "100%", md: "560px" }}
-        height={"570px"}
+        height={{ base: "500px", md: "570px" }}
         borderRadius={"30px"}
         padding={"60px"}
         color={"#000F08"}
