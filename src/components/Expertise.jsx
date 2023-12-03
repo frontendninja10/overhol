@@ -440,7 +440,7 @@ export default function Expertise() {
                         ) : (
                           ""
                         )}
-                        Recruiting
+                        Talent Management
                       </Box>
                       <AccordionIcon />
                     </AccordionButton>
@@ -452,6 +452,7 @@ export default function Expertise() {
                       spacing={1}
                       fontFamily={"AvenirNextLTPro-Regular"}
                     >
+                      <ListItem>Recruitment</ListItem>
                       <ListItem>Onboarding and Off-boarding</ListItem>
                       <ListItem>Performance Management</ListItem>
                       <ListItem>Learning and Development</ListItem>
@@ -554,17 +555,14 @@ export default function Expertise() {
                       fontFamily={"AvenirNextLTPro-Regular"}
                     >
                       <ListItem>
-                        Automation business Process and Workflow
+                        Automation Business Process and Workflow
                       </ListItem>
-                      <ListItem>Automation system integration</ListItem>
+                      <ListItem>Automation System Integration</ListItem>
                     </UnorderedList>
                   </AccordionPanel>
                 </>
               )}
             </AccordionItem>
-            <UnorderedList spacing={1} listStyleType={"none"} mb={"30px"}>
-              <ListItem>Talent Management</ListItem>
-            </UnorderedList>
           </Accordion>
         </Flex>
       </Flex>
