@@ -34,8 +34,8 @@ export default function Services() {
       </Heading>
       <Grid
         h={"100vh"}
-        gap={"2em"}
-        gridRowGap={{ base: "unset", md: "1em" }}
+        gridColumnGap={{ base: "unset", md: "2em" }}
+        gridRowGap={{ base: "2em", md: "1em" }}
         gridTemplateColumns={"repeat(2, 1fr)"}
       >
         <GridItem colSpan={{ base: "2", md: "1" }}>
