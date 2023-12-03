@@ -20,7 +20,7 @@ export default function Expertise() {
       color={"#000F08"}
       alignItems={"center"}
       mb={{ base: "-750px", md: "-650px" }}
-      mt={{ base: "-600px", md: "unset" }}
+      mt={{ base: "-400px", md: "unset" }}
       bgColor={"#f4f8fb"}
     >
       <Flex
