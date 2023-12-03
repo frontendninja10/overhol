@@ -18,7 +18,7 @@ export default function AboutUs() {
   return (
     <Flex
       px={{ base: "1em", md: "10em" }}
-      pt={"100px"}
+      pt={"80px"}
       pb={"100px"}
       flexDir={"column"}
       id="about"

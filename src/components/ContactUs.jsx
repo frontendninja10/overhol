@@ -34,7 +34,7 @@ export default function ContactUs({
         >
           We're waiting for you!
         </Heading>
-        <Text mb={{ base: "12em", md: "18em" }}>
+        <Text mb={{ base: "9em", md: "18em" }}>
           We are always excited to meet new clients. Please reach out and a team
           member will be available to answer all your questions
         </Text>
@@ -63,7 +63,7 @@ export default function ContactUs({
         >
           We're hiring
         </Heading>
-        <Text mb={{ base: "15em", md: "19em" }}>
+        <Text mb={{ base: "11em", md: "19em" }}>
           Are you ready to take the next step in your career? We're looking for
           talanted individuals to join our team. Explore new{" "}
         </Text>

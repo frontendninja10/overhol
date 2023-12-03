@@ -19,7 +19,7 @@ export default function Experience() {
     <Flex
       px={{ base: "1em", md: "10em" }}
       // h={"50vh"}
-      mt={{ base: "700px", md: "300px" }}
+      mt={{ base: "750px", md: "300px" }}
       flexDir={"column"}
       backgroundColor={"#fff"}
       pb={"100px"}
