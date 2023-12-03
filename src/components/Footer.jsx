@@ -18,9 +18,13 @@ export default function Footer() {
         pb={{ base: "2rem", md: "5rem" }}
         borderTop={"2px solid #D9D9D9"}
       >
-        <Flex alignItems={"flex-end"} gap={"0.8rem"} fontWeight={"semibold"}>
+        <Flex
+          alignItems={{ base: "center", md: "flex-end" }}
+          gap={"0.8rem"}
+          fontWeight={"semibold"}
+          flexDirection={{ base: "column", md: "unset" }}
+        >
           <Icon as={FaPhoneAlt} />
-
           <Text>647-564-8141</Text>
           <Text>647-232-5136</Text>
           <Text>613-263-1891</Text>
