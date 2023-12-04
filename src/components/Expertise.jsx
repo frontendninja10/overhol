@@ -23,9 +23,9 @@ export default function Expertise() {
       mt={{ base: "-200px", md: "-100px" }}
       bgColor={"#f4f8fb"}
       className="chrome-box"
-      __css={{
+      css={{
         "@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 0)":
-          { marginTop: "-150px" },
+          { marginTop: "-130px" },
       }}
     >
       <Flex
