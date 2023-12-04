@@ -1,6 +1,6 @@
 import { Box, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
-import tsc from "./assets/top-semi-circle.svg";
+// import tsc from "./assets/top-semi-circle.svg";
 import bsc from "./assets/bottom-semi-circle.svg";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
@@ -42,7 +42,7 @@ function App() {
     <>
       {/* TOP SECTION */}
       <Box
-        style={{ backgroundImage: `url(${tsc})` }}
+        style={{ backgroundImage: `url(/top-semi-circle.svg)` }}
         backgroundSize={{ base: "150px", md: "250px" }}
         backgroundRepeat={"no-repeat"}
         backgroundPosition={"left 20%"}
