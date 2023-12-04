@@ -1,7 +1,5 @@
 import { Box, useDisclosure } from "@chakra-ui/react";
 import { useState } from "react";
-// import tsc from "./assets/top-semi-circle.svg";
-import bsc from "./assets/bottom-semi-circle.svg";
 import Navigation from "./components/Navigation";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
@@ -66,7 +64,7 @@ function App() {
       {/*  BOTTOM SECTION */}
       <Box
         bgColor={"#fff"}
-        style={{ backgroundImage: `url(${bsc})` }}
+        style={{ backgroundImage: `url(/bottom-semi-circle.svg)` }}
         backgroundSize={"150px"}
         backgroundRepeat={"no-repeat"}
         backgroundPosition={"right 45%"}
