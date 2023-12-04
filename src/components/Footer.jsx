@@ -23,6 +23,7 @@ export default function Footer() {
           gap={"0.8rem"}
           fontWeight={"semibold"}
           flexDirection={{ base: "column", md: "unset" }}
+          mb={{ base: "1em", md: "unset" }}
         >
           <Icon as={FaPhoneAlt} />
           <Text>647-564-8141</Text>
