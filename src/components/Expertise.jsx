@@ -20,7 +20,7 @@ export default function Expertise() {
       color={"#000F08"}
       alignItems={"center"}
       mb={{ base: "-750px", md: "-650px" }}
-      mt={{ base: "-200px", md: "-150px" }}
+      mt={{ base: "-150px", md: "-100px" }}
       bgColor={"#f4f8fb"}
       className="chrome-box"
       css={{
