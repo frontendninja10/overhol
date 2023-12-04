@@ -22,7 +22,7 @@ export default function Experience() {
       mt={{ base: "750px", md: "300px" }}
       flexDir={"column"}
       backgroundColor={"#fff"}
-      pb={"100px"}
+      pb={"70px"}
     >
       <Heading
         as={"h2"}

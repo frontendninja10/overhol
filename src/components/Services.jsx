@@ -17,7 +17,7 @@ export default function Services() {
   return (
     <Flex
       px={{ base: "1em", md: "10em" }}
-      mt={{ base: "6em", md: "10em" }}
+      mt={{ base: "6em", md: "4em" }}
       h={{ base: "150vh", md: "100vh" }}
       flexDirection={"column"}
       mb={"40px"}

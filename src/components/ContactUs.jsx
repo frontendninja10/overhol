@@ -10,7 +10,6 @@ export default function ContactUs({
   return (
     <Flex
       px={{ base: "1em", md: "10em" }}
-      pt={"100px"}
       bgColor={"white"}
       justifyContent={"space-between"}
       flexDir={{ base: "column", md: "unset" }}

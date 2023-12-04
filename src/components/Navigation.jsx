@@ -60,26 +60,6 @@ function Navigation({
             >
               <Link
                 _hover={{ textDecoration: "none" }}
-                data-target="about"
-                onClick={(e) => {
-                  e.preventDefault();
-                  onClose();
-                  const target = document.querySelector(
-                    `[id="${e.target.dataset.target}"]`
-                  );
-                  const offset = 20; // change this value to adjust the scroll position
-                  setTimeout(() => {
-                    window.scrollTo({
-                      top: target.offsetTop + offset,
-                      behavior: "smooth",
-                    });
-                  }, 200);
-                }}
-              >
-                About Us
-              </Link>
-              <Link
-                _hover={{ textDecoration: "none" }}
                 data-target="services"
                 onClick={(e) => {
                   e.preventDefault();
@@ -98,6 +78,27 @@ function Navigation({
               >
                 Our Services
               </Link>
+              <Link
+                _hover={{ textDecoration: "none" }}
+                data-target="about"
+                onClick={(e) => {
+                  e.preventDefault();
+                  onClose();
+                  const target = document.querySelector(
+                    `[id="${e.target.dataset.target}"]`
+                  );
+                  const offset = 20; // change this value to adjust the scroll position
+                  setTimeout(() => {
+                    window.scrollTo({
+                      top: target.offsetTop + offset,
+                      behavior: "smooth",
+                    });
+                  }, 200);
+                }}
+              >
+                About Us
+              </Link>
+
               <Link
                 _hover={{ textDecoration: "none" }}
                 onClick={handleShowCareerModal}
@@ -144,25 +145,6 @@ function Navigation({
                   <DrawerBody>
                     <VStack spacing="2em">
                       <Link
-                        data-target="about"
-                        onClick={(e) => {
-                          e.preventDefault();
-                          onClose();
-                          const target = document.querySelector(
-                            `[id="${e.target.dataset.target}"]`
-                          );
-                          const offset = 20; // change this value to adjust the scroll position
-                          setTimeout(() => {
-                            window.scrollTo({
-                              top: target.offsetTop + offset,
-                              behavior: "smooth",
-                            });
-                          }, 200);
-                        }}
-                      >
-                        About Us
-                      </Link>
-                      <Link
                         data-target="services"
                         onClick={(e) => {
                           e.preventDefault();
@@ -181,6 +163,26 @@ function Navigation({
                       >
                         Our Services
                       </Link>
+                      <Link
+                        data-target="about"
+                        onClick={(e) => {
+                          e.preventDefault();
+                          onClose();
+                          const target = document.querySelector(
+                            `[id="${e.target.dataset.target}"]`
+                          );
+                          const offset = 20; // change this value to adjust the scroll position
+                          setTimeout(() => {
+                            window.scrollTo({
+                              top: target.offsetTop + offset,
+                              behavior: "smooth",
+                            });
+                          }, 200);
+                        }}
+                      >
+                        About Us
+                      </Link>
+
                       <Link onClick={handleShowCareerModal}>Careers</Link>
                       <Link onClick={handleShowConsultantModal}>
                         Need a Contractor

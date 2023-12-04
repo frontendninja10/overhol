@@ -65,9 +65,9 @@ function App() {
       <Box
         bgColor={"#fff"}
         style={{ backgroundImage: `url(/bottom-semi-circle.svg)` }}
-        backgroundSize={"150px"}
+        backgroundSize={{ base: "150px", md: "250px" }}
         backgroundRepeat={"no-repeat"}
-        backgroundPosition={"right 45%"}
+        backgroundPosition={"right 47%"}
       >
         <Experience />
         <AboutUs />

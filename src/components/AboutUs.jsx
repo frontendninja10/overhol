@@ -26,8 +26,7 @@ export default function AboutUs() {
   return (
     <Flex
       px={{ base: "1em", md: "10em" }}
-      pt={"80px"}
-      pb={"100px"}
+      pb={"50px"}
       flexDir={"column"}
       id="about"
     >
@@ -57,7 +56,7 @@ export default function AboutUs() {
         </Box>
         <Image src={aboutUsImg} />
       </Flex>
-      <Text mt={"100px"} mb={"60px"} w={{ base: "100%", md: "70%" }}>
+      <Text mt={"50px"} mb={"60px"}>
         Our consultants have extensive experience helping clients achieve their
         transformation objectives. Over the course of their careers, they have
         partnered with;
