@@ -25,7 +25,7 @@ export default function Expertise() {
       className="chrome-box"
       css={{
         "@media screen and (max-width: 768px) and (-webkit-min-device-pixel-ratio: 0)":
-          { marginTop: "-400px" },
+          { marginTop: "-300px" },
       }}
     >
       <Flex
