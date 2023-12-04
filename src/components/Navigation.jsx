@@ -38,6 +38,10 @@ function Navigation({
       px={{ base: "", md: "10em" }}
       alignItems={"center"}
       width={"100%"}
+      position={"fixed"}
+      top={0}
+      zIndex={1000}
+      boxShadow={"lg"}
     >
       <Flex
         alignItems={"center"}
@@ -141,9 +145,11 @@ function Navigation({
                 <DrawerOverlay />
                 <DrawerContent>
                   <DrawerCloseButton />
-                  <DrawerHeader>Menu</DrawerHeader>
-                  <DrawerBody>
-                    <VStack spacing="2em">
+                  <DrawerHeader borderBottom={"1px solid #000F08"}>
+                    Menu
+                  </DrawerHeader>
+                  <DrawerBody pt={"2em"}>
+                    <VStack spacing="2em" alignItems={"left"}>
                       <Link
                         data-target="services"
                         onClick={(e) => {
@@ -193,6 +199,7 @@ function Navigation({
                         borderRadius={"10px"}
                         paddingY={"25px"}
                         paddingX={"35px"}
+                        mt={"3em"}
                         onClick={handleShowContactModal}
                       >
                         Contact Us

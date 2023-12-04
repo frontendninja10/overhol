@@ -6,6 +6,7 @@ function Hero() {
   return (
     <Flex
       px={{ base: "1em", md: "10em" }}
+      pt={{ base: "3em", md: "8em" }}
       mt={{ base: "2em", md: "1em" }}
       flexDir={{ base: "column", md: "row" }}
       alignItems={{ base: "center", md: "" }}
