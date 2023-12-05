@@ -31,7 +31,7 @@ export default function Expertise() {
       <Flex
         flexDir={"column"}
         w={"100%"}
-        h={{ base: "1000px", md: "720px" }}
+        h={{ base: "1100px", md: "720px" }}
         bg={"#F4D81A"}
         borderRadius={{ base: "25px", md: "50px" }}
         px={{ base: "1em", md: "6em" }}
