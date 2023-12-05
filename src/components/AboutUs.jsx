@@ -47,7 +47,7 @@ export default function AboutUs() {
             About us?
           </Heading>
           <Text>
-            We are a team of professionals with almost 2 decades of combined
+            Our executive partners have a combined experience of over 3 decades
             experience providing advisory services, implementing business
             solutions, and digitally overhauling existing technologies,
             reshaping businesses and helping them and their people get to the
