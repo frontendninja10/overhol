@@ -48,10 +48,9 @@ export default function AboutUs() {
           </Heading>
           <Text>
             Our executive partners have a combined experience of over 3 decades
-            experience providing advisory services, implementing business
-            solutions, and digitally overhauling existing technologies,
-            reshaping businesses and helping them and their people get to the
-            next level.
+            providing advisory services, implementing business solutions,
+            digitally overhauling existing technologies, reshaping businesses
+            and helping them and their people get to the next level.
           </Text>
         </Box>
         <Image src={aboutUsImg} />
