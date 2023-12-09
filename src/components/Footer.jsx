@@ -42,7 +42,7 @@ export default function Footer() {
           <Link>
             <Icon as={FaLinkedinIn} />
           </Link>
-          <Link href="https://instagram.com/vigoeconsulting?igshid=MTIyMzRjYmRlZg==">
+          <Link href="">
             <Icon as={FaInstagram} />
           </Link>
         </Flex>
