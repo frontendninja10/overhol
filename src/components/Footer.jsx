@@ -39,7 +39,7 @@ export default function Footer() {
           <Link href="mailto:support@overhol.com?cc=sam@overhol.com, ade@overhol.com, yomi@overhol.com">
             <Icon as={GrMail} />
           </Link>
-          <Link>
+          <Link href="http://www.linkedin.com/company/overhol">
             <Icon as={FaLinkedinIn} />
           </Link>
           <Link href="">
